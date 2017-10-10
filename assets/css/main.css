@@ -1,6 +1,6 @@
-@import url("https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700,800");
+@import url("https://fonts.googleapis.com/css?family=Roboto");
 html {
-  font-family: 'Open Sans', sans-serif;
+  font-family: 'Roboto', sans-serif;
   background: #ffffff;
   box-sizing: border-box;
 }
@@ -10,7 +10,7 @@ html {
 	outline: none !important;
 }
 body {
-	font-family: 'Open Sans', sans-serif;
+	font-family: 'Roboto', sans-serif;
 	font-size: 16px;
 }
 
@@ -23,7 +23,7 @@ blockquote {
 	border-left: 3px solid #333;
 }
 h1, h2, h3, h4, h5, h6{
-	font-family: 'Open Sans', sans-serif;
+	font-family: 'Roboto', sans-serif;
 	font-weight: bold;
 }
 textarea {
@@ -47,14 +47,15 @@ pre {
 
 .drescription {
 	padding-top: 2.3em;
-    font-family: 'Open Sans', sans-serif;
+    font-family: 'Roboto', sans-serif;
     font-size: 21px;
     font-weight: 700;
     letter-spacing: .5px;
 }
 
-.orange {
-	color: #eb7f36;
+.sallyColor {
+	/* color: #eb7f36; */
+	color: #FA6462;
 }
 .checkbox-inline, .radio-inline {
 	
@@ -66,7 +67,7 @@ pre {
     font-size: 25px;
     margin-right: 7px;
 }
-.contact {
+/* .contact {
 	background-color: #f8f8f8;
 	padding: 5em 0em;
 }
@@ -84,7 +85,7 @@ pre {
 .contact p.contact-desc {
     margin-bottom: 25px;
     line-height: 27px;
-}
+} */
 
 .fa {
 	margin-right: 10px;
@@ -166,7 +167,7 @@ pre {
 #main {
     margin-top: 30px;
 }
-
+/* 
 .btn-tobais {
 	-webkit-transition: all 0.4s ease-in-out;
 	-moz-transition: all 0.4s ease-in-out;
@@ -180,7 +181,7 @@ pre {
     margin-top: 30px;
     border: 1px solid;
     padding: 10px 20px;
-}
+} */
 .hover-off:hover{
 	color: #fff;
 }
@@ -220,7 +221,7 @@ pre {
 
 
 .unordarlist {
-	font-family: 'Open Sans', sans-serif;
+	font-family: 'Roboto', sans-serif;
     list-style-type: square;
     font-size: bold;
     font-weight: bold;
@@ -248,15 +249,15 @@ pre {
 img.img-responsive {
     margin: 15px 0px;
 }
-.btn-send {
+/* .btn-send {
 
 	padding: 10px 30px;
     background-color: #333;
     color: #fff;
     margin-top: 30px;
-}
+} */
 
-.btn-defalt {
+/* .btn-defalt {
 
 	background-color: #333;
 	color: #fff;
@@ -285,7 +286,7 @@ img.img-responsive {
 	background-color: #333;
 	color: #fff;
 	padding: 12px 170px;
-}
+} */
 @media only screen and (max-width: 417px) {
     .btn-fit {
         padding: 12px 90px;
@@ -646,19 +647,27 @@ button[disabled], html input[disabled] {
 .a a:hover .img-hover {
 	opacity: 0;
 }
-.a a .img-hover.glass {
-    background: #ea766a;
+.a a .img-hover.4degrees {
+	/* background: #ea766a; */
+	background: #73E3C4;
 }
-.a a .img-hover.shoes-glass {
-    background: #a0c4a3;
+.a a .img-hover.brideguide {
+	/* background: #a0c4a3; */
+	background: #FAC1C0;
 }
-.a a .img-hover.hand-parts {
+.a a .img-hover.wagabond {
+	background: #9FDDE4;
+}
+.a a .img-hover.habfit {
+	background: #94BAED;
+}
+/* .a a .img-hover.hand-parts {
     background: #da9dd9;
-}
-.a a .img-hover.table-with-phone {
+} */
+/* .a a .img-hover.table-with-phone {
     background: #6da178;
-}
-.a a .img-hover.orange-shoe {
+} */
+/* .a a .img-hover.orange-shoe {
     background: #da9567;
 }
 .a a .img-hover.glass-shoes {
@@ -669,7 +678,7 @@ button[disabled], html input[disabled] {
 }
 .a a .img-hover.egg-arts {
     background: #ddd173;
-}
+} */
 .a a .img-hover .c-table {
 	display: table;
 	width: 100%;
@@ -731,26 +740,11 @@ button[disabled], html input[disabled] {
 			color: inherit;
 			border-radius: 100%;
 		}
-.pop-up.fa-facebook {
-
-	background-color: #4071bb;
-}
-.pop-up.fa-twitter {
-
-	background-color: #27c7f5;
-}
-.pop-up.fa-google-plus {
-
-	background-color: #ff8400;
-}
-.pop-up.fa-pinterest {
-
-	background-color: #f14603;
-}
+/* 
 .icon.pop-up {
 				font-size: 1.0em;
 				color: #ffffff;
-			}
+			} */
 .pop-up-color {
 	background-color: #fff;
 }
@@ -770,21 +764,20 @@ button[disabled], html input[disabled] {
 	margin-top: 250px;
 }
 
-@media screen and (max-width: 1024px) {
+/* @media screen and (max-width: 1024px) {
 	.pop-up-color section {
 	margin-top: 25px;
 	}
-}
+} */
 
-}
-textarea#message {
+/* textarea#message {
     margin-top: 35px;
 }
 
 .form-control:focus {
     border-color: #adadad;
     box-shadow: none;
-}
+} */
 @media screen and (max-width: 600px) {
 	.mfp-arrow {
 	top: 56%;
