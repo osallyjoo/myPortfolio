@@ -1,18 +1,60 @@
-@import url("https://fonts.googleapis.com/css?family=Roboto");
+@import url('https://fonts.googleapis.com/css?family=Karla');
+
 html {
-  font-family: 'Roboto', sans-serif;
+  font-family: 'Karla', sans-serif;
   background: #ffffff;
   box-sizing: border-box;
 }
 
-
 * {
 	outline: none !important;
 }
+
+*:before, *:after {
+	box-sizing: inherit;
+  }
+
 body {
-	font-family: 'Roboto', sans-serif;
+	font-family: 'Karla', sans-serif;
 	font-size: 16px;
+	margin: 0;
 }
+
+.center-xy {
+	top: 50%;
+	left: 50%;
+	right: -50%;
+	-webkit-transform: translate(-50%, -50%);
+			transform: translate(-50%, -50%);
+	position: absolute;
+  }
+  
+  canvas {
+	display: block;
+	margin: 0 auto;
+  }
+  
+  .copy-container {
+	text-align: center;
+	background: rgba(255, 255, 255, 0.5);
+	box-shadow: 0px 0px 20px 20px rgba(255, 255, 255, 0.5);
+	padding: 10px;
+	pointer-events: none;
+  }
+  .copy-container h1 {
+	color: #444;
+	font-size: 45px;
+	font-weight: 600;
+	letter-spacing: -.2px;
+	margin: 0 0 3px;
+  }
+  .copy-container h2 {
+	color: #bbb;
+	font-size: 28px;
+	letter-spacing: .2px;
+	margin: 0;
+  }
+
 
 a:hover {
 	text-decoration: none;
@@ -23,8 +65,8 @@ blockquote {
 	border-left: 3px solid #333;
 }
 h1, h2, h3, h4, h5, h6{
-	font-family: 'Roboto', sans-serif;
 	font-weight: bold;
+	color: #212121;
 }
 textarea {
 	resize: none;
@@ -32,9 +74,14 @@ textarea {
 h1 {
 	font-size: 36px;
 	margin-top: 45px;
+	font-weight: bold;
+	color: #212121;
+
 }
 h2 {
-	font-size: 31px;
+	font-size: 29px;
+	font-weight: normal;
+
 }
 pre {
 	background-color: e4e4e4;
@@ -47,7 +94,6 @@ pre {
 
 .drescription {
 	padding-top: 2.3em;
-    font-family: 'Roboto', sans-serif;
     font-size: 21px;
     font-weight: 700;
     letter-spacing: .5px;
@@ -189,7 +235,7 @@ pre {
 /* Header */
 
 	.header {
-		padding: 4em 0 0 ;
+		/* padding: 3em 0 0 ; */
 	}
 
 		.header .logo {
@@ -218,10 +264,32 @@ pre {
 					width: 3.2em;
 					height: 2.5em;
 				}
+.navigation {
+	padding-top: 30px;
+	padding-bottom: 30px;
+	position: absolute;
+	top: 0;
+	width: 100%;
+	z-index: 1;
+}
 
+.navbar-right {
+	float: right;
+	padding-right: 10%;
+}
+
+.navbar-right a {
+	text-decoration: none;
+	padding: 10px;
+	color: gray;
+	font-weight: 900;
+}
+
+.navbar-right a:hover {
+	text-decoration: underline;
+}
 
 .unordarlist {
-	font-family: 'Roboto', sans-serif;
     list-style-type: square;
     font-size: bold;
     font-weight: bold;
@@ -778,7 +846,7 @@ button[disabled], html input[disabled] {
     border-color: #adadad;
     box-shadow: none;
 } */
-@media screen and (max-width: 600px) {
+/* @media screen and (max-width: 600px) {
 	.mfp-arrow {
 	top: 56%;
 }
@@ -789,4 +857,4 @@ button[disabled], html input[disabled] {
 .mfp-content .white-popup .col-md-4 {
 	padding-right: 25px;
 	padding-left: 25px;
-}
+} */
